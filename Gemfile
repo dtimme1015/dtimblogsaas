@@ -10,7 +10,7 @@ gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~>3.3.6'
-gem 'autoprefixer-rails', '~>6.3.7'
+gem 'autoprefixer-rails', '~> 6.5', '>= 6.5.3.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'rspec-rails', '3.1.0'
+  gem 'rspec-rails', '3.5.2'
   gem 'byebug', platform: :mri
 end
 
